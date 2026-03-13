@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Dashboard</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white">
+
+<nav class="bg-gray-800 p-4 flex justify-between">
+<h1 class="font-bold text-xl">CyberLab Dashboard</h1>
+
+<div>
+<a href="/feedback" class="mr-4 text-gray-300 hover:text-white">Feedback</a>
+<a href="/adminpanel" class="mr-4 text-gray-300 hover:text-white">Admin</a>
+<a href="/logout" class="text-red-400">Logout</a>
+</div>
+</nav>
+
+<div class="p-10">
+
+<h2 class="text-3xl mb-4">
+Welcome {{user}}
+</h2>
+
+<div class="grid grid-cols-3 gap-6 mt-6">
+
+<div class="bg-gray-800 p-6 rounded-xl shadow">
+<h3 class="text-xl font-bold mb-2">Profile</h3>
+<p class="text-gray-400">View your account details.</p>
+</div>
+
+<div class="bg-gray-800 p-6 rounded-xl shadow">
+<h3 class="text-xl font-bold mb-2">Feedback</h3>
+<p class="text-gray-400">Submit website feedback.</p>
+</div>
+
+<div class="bg-gray-800 p-6 rounded-xl shadow">
+<h3 class="text-xl font-bold mb-2">Security Lab</h3>
+<p class="text-gray-400">Practice penetration testing.</p>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
